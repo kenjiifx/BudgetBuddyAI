@@ -162,7 +162,7 @@ If you have any questions or run into issues, please open an issue in the GitHub
 
 Moosa Alam
 - GitHub: [@kenjiifx](https://github.com/kenjiifx)
-- LinkedIn: [Moosa Alam](https://linkedin.com/in/moosa-alam)
+- LinkedIn: [Moosa Alam](https://linkedin.com/in/moosa-alam-470029310/)
 
 ## Project Status 🚦
 This project is currently in the development phase. It is functional and ready for use, but new features and improvements are being added regularly.
