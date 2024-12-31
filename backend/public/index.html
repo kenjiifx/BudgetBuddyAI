@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Buddy AI</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <div class="logo-container">
+                <svg class="bot-icon" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M21.928 11.607c-.202-.488-.635-.605-.928-.633V8c0-1.103-.897-2-2-2h-6V4.61c.305-.274.5-.668.5-1.11a1.5 1.5 0 0 0-3 0c0 .442.195.836.5 1.11V6H5c-1.103 0-2 .897-2 2v2.974c-.293.028-.726.145-.928.633-.407.987.182 2.104.947 2.526.196.109.41.167.63.167.072 0 .144-.007.215-.02.051.365.225.704.5.946v2.274c-.293.028-.726.145-.928.633-.407.987.182 2.104.947 2.526.196.109.41.167.63.167.072 0 .144-.007.215-.02.051.365.225.704.5.946V22h2v-1.252c.276.242.45.581.5.946.071.013.143.02.215.02.22 0 .434-.058.63-.167.765-.422 1.354-1.539.947-2.526-.202-.488-.635-.605-.928-.633v-2.274c.276-.242.45-.581.5-.946.071-.013.143-.02.215-.02.22 0 .434-.058.63-.167.765-.422 1.354-1.539.947-2.526zM13 16.5h-2v-2h2v2zm0-4h-2v-2h2v2zm4-4h-2v-2h2v2z"/>
+                </svg>
+                <h1>Budget Buddy AI</h1>
+            </div>
+            <button class="theme-toggle" id="theme-toggle">
+                <span class="material-icons">dark_mode</span>
+            </button>
+        </div>
+        <div id="chat-box" class="chat-box">
+            <!-- Chat messages will appear here -->
+        </div>
+        <div class="chat-input-container">
+            <div class="input-wrapper">
+                <input id="user-input" type="text" placeholder="Type your message here..." />
+                <button id="send-button">
+                    <span class="material-icons">send</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
